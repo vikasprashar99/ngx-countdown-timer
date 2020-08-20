@@ -63,7 +63,7 @@
           },
           "arguments": [
             {
-              "selector": "countdown",
+              "selector": "countdown-timer",
               "template": "{{ displayTime }}"
             }
           ]
