@@ -1,75 +1,55 @@
 {
-  "name": "ngx-countdown-timer",
-  "version": "0.1.0",
-  "scripts": {
-    "build": "gulp build",
-    "build:watch": "gulp",
-    "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n ngx-countdown-timer -d docs --hideGenerator",
-    "docs:serve": "npm run docs:build -- -s",
-    "docs:watch": "npm run docs:build -- -s -w",
-    "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
-    "lite": "lite-server",
-    "playground:build": "tsc -p playground -w",
-    "playground": "concurrently \"npm run build:watch\" \"npm run playground:build\" \"npm run lite\"",
-    "test": "tsc && karma start"
+  "_from": "ngx-countdown-timer@0.1.7",
+  "_id": "ngx-countdown-timer@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-iSJ+KVRnEyfrP+Cnjy7iGEJAYfLJVmncSuQMFqjGDIqIkvLBsktaDUxcIVT47/Ae4G/mvWPsxWAXTMZtjcJ/HQ==",
+  "_location": "/ngx-countdown-timer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ngx-countdown-timer@0.1.7",
+    "name": "ngx-countdown-timer",
+    "escapedName": "ngx-countdown-timer",
+    "rawSpec": "0.1.7",
+    "saveSpec": null,
+    "fetchSpec": "0.1.7"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/markpenaranda/ngx-countdown-timer"
-  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-countdown-timer/-/ngx-countdown-timer-0.1.7.tgz",
+  "_shasum": "d16ec1272b22fa184926e29b913c3a05f76c5dd5",
+  "_spec": "ngx-countdown-timer@0.1.7",
+  "_where": "C:\\Users\\vikas\\OneDrive\\Desktop\\quark-front",
   "author": {
     "name": "MJP",
     "email": "markangelpenaranda@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/markpenaranda/ngx-countdown-timer/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Installation",
+  "homepage": "https://github.com/markpenaranda/ngx-countdown-timer#readme",
+  "jsnext:main": "ngx-countdown-timer.js",
   "keywords": [
     "angular"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/markpenaranda/ngx-countdown-timer/issues"
-  },
-  "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
+  "main": "ngx-countdown-timer.umd.js",
+  "module": "ngx-countdown-timer.js",
+  "name": "ngx-countdown-timer",
+  "peerDependencies": {
     "@angular/core": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@compodoc/compodoc": "^1.0.0-beta.10",
-    "@types/jasmine": "2.5.38",
-    "@types/node": "~6.0.60",
-    "angular-in-memory-web-api": "^0.3.2",
-    "codelyzer": "~2.0.0",
-    "concurrently": "^3.4.0",
-    "core-js": "^2.4.1",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-rollup": "^2.15.0",
-    "jasmine-core": "~2.5.2",
-    "jasmine-spec-reporter": "~3.2.0",
-    "karma": "~1.4.1",
-    "karma-chrome-launcher": "~2.0.0",
-    "karma-cli": "~1.0.1",
-    "karma-coverage-istanbul-reporter": "^0.2.0",
-    "karma-jasmine": "~1.1.0",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "lite-server": "^2.3.0",
-    "node-sass": "^4.5.2",
-    "node-sass-tilde-importer": "^1.0.0",
-    "node-watch": "^0.5.2",
-    "protractor": "~5.1.0",
-    "rollup": "^0.49.3",
-    "run-sequence": "^1.2.2",
     "rxjs": "^5.1.0",
-    "systemjs": "^0.20.12",
-    "ts-node": "~2.0.0",
-    "tslint": "~4.5.0",
-    "typescript": "~2.2.0",
     "zone.js": "^0.8.4"
   },
-  "engines": {
-    "node": ">=6.0.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markpenaranda/ngx-countdown-timer.git"
+  },
+  "typings": "ngx-countdown-timer.d.ts",
+  "version": "0.1.7"
 }
