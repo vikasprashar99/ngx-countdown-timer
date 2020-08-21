@@ -48,7 +48,8 @@ var CountdownTimer = (function () {
         // Zero Time Trigger
         if (milisec_diff <= 0) {
             this.zeroTrigger.emit("reached zero");
-            return "00:00:00:00";
+            this.stopTimer();
+            return "Class going on";
         }
         var /** @type {?} */ days = Math.floor(milisec_diff / 1000 / 60 / (60 * 24));
         var /** @type {?} */ date_diff = new Date(milisec_diff);
