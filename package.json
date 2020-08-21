@@ -32,7 +32,6 @@
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "enableIvy":true,
   "description": "## Installation",
   "homepage": "https://github.com/vikasprashar99/ngx-countdown-timer#readme",
   "jsnext:main": "ngx-countdown-timer.js",
